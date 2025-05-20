@@ -23,10 +23,6 @@ Dessa forma você instala as dependência e já roda o projeto em modo de desenv
 "jest-environment-jsdom": "^29.7.0",
 "vite": "^6.3.5"
 
-
-### Prerequisites
-What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
-
 ## Tests
 
 Para rodas os testes unitários:
