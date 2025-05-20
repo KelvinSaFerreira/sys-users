@@ -1,0 +1,33 @@
+@import "../../styles/_variables";
+
+.table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  color: #333333;
+
+  th {
+    background-color: $theme-color;
+    color: #fff;
+    font-weight: 500;
+    padding: 0.5rem;
+  }
+
+  tr:nth-child(even) {
+    background-color: rgba($theme-color, 0.1);
+  }
+
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+
+  td {
+    padding: 0.5rem;
+  }
+}
+
+.icon {
+  color: $red-color;
+  cursor: pointer;
+  margin-left: 0.6rem;
+  margin-top: 0.4rem;
+}

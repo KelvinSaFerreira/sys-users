@@ -1,0 +1,32 @@
+.button {
+  width: 256px;
+  height: 36px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 25px;
+  margin: 12px 0;
+  background-color: #00c8b3;
+  color: #ffff;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 70%;
+  }
+
+  &--disabled {
+    background-color: #f6f6f6;
+    color: #dddcdc;
+    pointer-events: none;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loadingIcon {
+  animation: spin 1s linear infinite;
+}
